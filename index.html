@@ -24,8 +24,47 @@
 
 <body class="font-lato">
     <header>
-        <nav>
+        <nav class="max-w-screen-xl mx-auto lg:px-5 mb-12">
+            <div class="navbar justify-between lg:bg-[#F85559]  rounded-full">
 
+                <div class="navbar-start hidden lg:flex">
+                    <ul class="menu menu-horizontal px-1">
+                        <li><a class="text-xl font-normal text-white">Home</a></li>
+                        <li><a class="text-xl font-normal text-white">About Us</a></li>
+                        <li><a class="text-xl font-normal text-white">Shop</a></li>
+                        <li><a class="text-xl font-normal text-white">All Fruits</a></li>
+                    </ul>
+                </div>
+                <div class="navbar-center gap-2 md:pl-3 lg:pl-0">
+                    <img class="w-6 " src="./images/logo.png" alt="">
+                    <a class="text-xl lg:text-2xl font-bold text-[#121212] normal-case lg:text-white">Fruit Burst</a>
+                </div>
+
+                <div class="dropdown navbar-end text-right lg:hidden">
+                    <label tabindex="0" class="btn btn-ghost lg:hidden">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+                            stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M4 6h16M4 12h8m-8 6h16" />
+                        </svg>
+                    </label>
+                    <ul tabindex="0"
+                        class="menu menu-sm dropdown-content mt-3 z-[1] p-2 bg-[#F85559] rounded-box w-52">
+                        <li><a class="text-xl font-normal text-white ">Home</a></li>
+                        <li><a class="text-xl font-normal text-white ">About Us</a></li>
+                        <li><a class="text-xl font-normal text-white ">Shop</a></li>
+                        <li><a class="text-xl font-normal text-white ">All Fruits</a></li>
+                    </ul>
+                </div>
+                <div class="relative  form-control navbar-end hidden lg:inline-block text-right lg:pr-5">
+                    <input type="text" placeholder="Search " class="input ml-auto rounded-full w-24 md:w-auto" />
+                    <div class="absolute top-3 right-8">
+                        <i class="fa-solid fa-magnifying-glass  " ></i>
+                    </div>
+                    
+                </div>
+
+            </div>
         </nav>
     </header>
     <main>
@@ -626,7 +665,8 @@
 
         <section class="max-w-screen-xl mx-auto mb-28 ">
             <h1 class="text-4xl font-extrabold text-[#121212] text-center mt-4">Why Choose Us</h1>
-            <p class="text-sm text-[#121212a6] font-medium text-center mt-4 px-10 md:px-20 lg:px-0  ">Contrary to popular belief, is not simply random text. It has
+            <p class="text-sm text-[#121212a6] font-medium text-center mt-4 px-10 md:px-20 lg:px-0  ">Contrary to
+                popular belief, is not simply random text. It has
                 roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.</p>
             <div class="grid grid-cols-1 lg:grid-cols-3 mt-20 gap-5">
                 <!-- middle img -->
@@ -643,7 +683,8 @@
                         <div class="space-y-3">
                             <h2 class="text-2xl lg:text-left  font-extrabold text-[#121212]">Dedicated Team</h2>
                             <hr class="w-24 mx-auto md:ml-auto lg:ml-0 border-1 border-[#121212d9]">
-                            <p class="text-sm lg:text-left  font-medium text-[#121212a6]">Professional employees are there for you to
+                            <p class="text-sm lg:text-left  font-medium text-[#121212a6]">Professional employees are
+                                there for you to
                                 pick
                                 the most amazing and fresh fruits.</p>
                         </div>
@@ -656,7 +697,8 @@
                         <div class="space-y-3">
                             <h2 class="text-2xl lg:text-left  font-extrabold text-[#121212]">Fresh is Best</h2>
                             <hr class="w-24 border-1 lg:ml-0 border-[#121212d9] mx-auto md:ml-auto">
-                            <p class="text-sm lg:text-left  font-medium text-[#121212a6]">Professional employees are there for you to
+                            <p class="text-sm lg:text-left  font-medium text-[#121212a6]">Professional employees are
+                                there for you to
                                 pick
                                 the most amazing and fresh fruits.</p>
                         </div>
@@ -669,7 +711,8 @@
                         <div class="space-y-3 ">
                             <h2 class="text-2xl lg:text-left  font-extrabold text-[#121212]">Gift Certificates</h2>
                             <hr class="w-24 border-1 lg:ml-0 border-[#121212d9] mx-auto md:ml-auto">
-                            <p class="text-sm lg:text-left font-medium text-[#121212a6]">Professional employees are there for you to
+                            <p class="text-sm lg:text-left font-medium text-[#121212a6]">Professional employees are
+                                there for you to
                                 pick
                                 the most amazing and fresh fruits.</p>
                         </div>
@@ -677,7 +720,7 @@
                     </div>
                 </div>
 
-                
+
 
                 <!-- second text  -->
                 <div class="lg:order-3 p-5">
@@ -686,7 +729,8 @@
                         <div class="space-y-3 ">
                             <h2 class="text-2xl lg:text-right font-extrabold text-[#121212]">Integrated Supplier</h2>
                             <hr class="w-24  border-1 lg:mr-0 border-[#121212d9] mx-auto md:mr-auto ">
-                            <p class="text-sm lg:text-right font-medium text-[#121212a6]">Professional employees are there for you to pick the most amazing and fresh fruits.</p>
+                            <p class="text-sm lg:text-right font-medium text-[#121212a6]">Professional employees are
+                                there for you to pick the most amazing and fresh fruits.</p>
                         </div>
                         <div>
                             <i class="fa-solid fa-apple-whole bg-[#12121259] p-3 rounded-2xl "></i>
@@ -698,7 +742,8 @@
                         <div class="space-y-3 ">
                             <h2 class="text-2xl lg:text-right font-extrabold text-[#121212]">Sustainable Practice</h2>
                             <hr class="w-24  border-1 lg:mr-0 border-[#121212d9] mx-auto md:mr-auto">
-                            <p class="text-sm lg:text-right font-medium text-[#121212a6]">Professional employees are there for you to pick the most amazing and fresh fruits.</p>
+                            <p class="text-sm lg:text-right font-medium text-[#121212a6]">Professional employees are
+                                there for you to pick the most amazing and fresh fruits.</p>
                         </div>
                         <div>
                             <i class="fa-solid fa-ice-cream bg-[#12121259] p-3 rounded-2xl"></i>
@@ -710,7 +755,8 @@
                         <div class="space-y-3 ">
                             <h2 class="text-2xl lg:text-right font-extrabold text-[#121212]">The Benefits Only</h2>
                             <hr class="w-24  border-1 lg:mr-0  border-[#121212d9] mx-auto md:mr-auto">
-                            <p class="text-sm lg:text-right font-medium text-[#121212a6]">Professional employees are there for you to pick the most amazing and fresh fruits.</p>
+                            <p class="text-sm lg:text-right font-medium text-[#121212a6]">Professional employees are
+                                there for you to pick the most amazing and fresh fruits.</p>
                         </div>
                         <div>
                             <i class="fa-solid fa-thumbs-up  bg-[#12121259] p-3 rounded-2xl"></i>
